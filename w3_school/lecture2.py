@@ -422,39 +422,6 @@ class Student(Person):
 
 x = Student("Mike", "Olsen", 2019)
 x.welcome()   # Welcome Mike Olsen to the class of 2019
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #List is a collection which is ordered and changeable. Allows duplicate members.
 #Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
 #Set is a collection which is unordered and unindexed. No duplicate members.
