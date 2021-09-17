@@ -1,0 +1,13 @@
+'''died_before = data['died before']
+        data = {}
+        with open('config.txt') as config_file:
+        data = json.load(config_file)
+
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                data['current score'] = self.score
+                data['died before'] = died_before
+                with open("config.txt", "w") as config_file:
+                    json.dump(data, config_file)
+                pygame.quit()
+                sys.exit()'''
